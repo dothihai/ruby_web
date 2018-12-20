@@ -1,8 +1,7 @@
-<% provide(:title, "Home") %>
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= yield(:title) %> | SampleApp</title>
+    <title>ToyApp</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -11,7 +10,6 @@
   </head>
 
   <body>
-    <%= render "layouts/header" %>
     <%= yield %>
   </body>
 </html>
